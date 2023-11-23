@@ -66,7 +66,7 @@ function updateCart() {
             message += "Silahkan transfer ke (234-898-898 a/n Ilum)\n";
             message += "Jika sudah, silahkan foto bukti transfer dan berikan alamat lengkap serta nama pemesan";
 
-            const phoneNumber = "6281389338181"; // Nomor WhatsApp yang diinginkan
+            const phoneNumber = "+62 878-6047-0928"; // Nomor WhatsApp yang diinginkan
             const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
             window.location.href = whatsappURL;
         });
